@@ -1,9 +1,7 @@
 jdk:
   - openjdk17
-before_install:
-  - ./custom_setup.sh
+
 install:
-  - echo "Running a custom install command"
+  - echo "Running install phase of JITPack build"
   - ./gradlew clean install -xtest
-env:
-  MYVAR: "custom environment variable"
+  - ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V -P release
