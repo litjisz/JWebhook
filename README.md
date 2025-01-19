@@ -3,4 +3,6 @@
 
 This is an experimental project to see how to publish a public dependency in jitpack. It doesn't and won't work, I don't think it will fix it anytime soon. I repeat that this is just an EXPERIMENT to learn how to publish things with jitpack.
 
+If you want to use it, just copy and paste the main class and the pom dependency.
+
 [![](https://jitpack.io/v/litjisz/JWebhook.svg)](https://jitpack.io/#litjisz/JWebhook)
