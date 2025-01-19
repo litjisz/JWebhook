@@ -1,7 +1,0 @@
-jdk:
-  - openjdk17
-
-install:
-  - echo "Running install phase of JITPack build"
-  - ./gradlew clean install -xtest
-  - ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V -P release
